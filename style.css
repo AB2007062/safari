@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(./img/Rectangle\ 1.jpg);
+    height: 940px;
+
+}
+.navbar{
+    justify-content: space-between;
+    padding-top: 20px;
+    display: flex;
+    /* width: 1920px; */
+    border-bottom: 1px solid white;
+}
+.navbar button{
+    color: aliceblue;
+    border: 0px;
+    background-color:#886239;
+    width: 215px;
+height: 44px;
+border-radius: 22px;
+
+}
+.navbar-text{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.menu{
+    justify-content: center;
+    width: 1120px;
+    border-bottom:  1px solid white;
+    color: aliceblue;
+    padding-top: 20px;
+    gap: 120px;
+    display: flex;
+    
+}
+.menu h3{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family:sans-serif;
+}
+.main h2{
+    max-width: 530px;
+    color: black;
+}
+.main button{
+    color: aliceblue;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #886239;
+    width: 250px;
+height: 60px;
+border-radius: 30px;
+}
+.main{
+    margin-top: 530px;
+}
+.gridd{
+    margin-top: 100px;
+    display: grid;
+    width: 1140px;
+    height: 730px;
+    /* border: 2px solid black; */
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:auto auto auto;
+}
+.gridd div{
+    width: 256px;
+height: 160px;
+    border:1px solid rgb(194, 194, 194);
+}
+.gridd h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 8px;
+} 
+.mavzu{
+    padding-top: 30px;
+    color: aliceblue;
+    height: 850px;
+    background-image: url(./img/panorama-2105955_1920\ 1.png);
+    background-color: #886239;
+}
+.mavzu h1{
+    text-align: center;
+}
+.big-box{
+    margin-top: 100px;
+    display: grid;
+    width: 1250px;
+    height: 780px;
+    /* border: 2px solid black; */
+    grid-template-columns:auto auto auto auto;
+    grid-template-rows:auto auto;
+}
+.big-box div{
+    width: 290px;
+    height: 200px;
+    /* border: 3px solid red; */
+}
+.box1 img{
+    width: 85px;
+height: 85px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.box1{
+    padding-top: 30px;
+}
+.box1 h4{
+    margin-top: 20px;
+}
